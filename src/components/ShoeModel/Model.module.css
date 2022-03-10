@@ -1,0 +1,42 @@
+.item {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: rgb(54, 50, 50, 0.8);
+  max-width: 25%;
+  max-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15%;
+  margin-top: 0%;
+}
+
+.image {
+  padding: 0;
+  margin: 0;
+  width: 30%;
+  height: 5%;
+  object-fit: cover;
+}
+
+.title {
+  color: white;
+  margin-bottom: 0;
+}
+
+.price {
+  color: white;
+}
+
+.viewButton {
+  font-size: 1em;
+  color: white;
+  font-weight: lighter;
+  cursor: pointer;
+  border-radius: 20%;
+  align-self: flex-end;
+  padding: 1rem;
+  background-color: #333;
+  text-decoration: none;
+  border: 1px solid black;
+}
+

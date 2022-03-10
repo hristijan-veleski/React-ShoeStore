@@ -1,0 +1,46 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: flex-start;
+    background-color: #333;
+    margin-left: -2rem;
+    color: white;
+}
+
+.itemImage{
+    object-fit: cover;
+    display: block;
+    width: 20%;
+    margin-right: 1rem;
+}
+
+.textContainer{
+    margin-right: 2rem;
+}
+
+.priceContainer{
+    margin-bottom: 2rem;
+}
+
+.price{
+    margin-bottom: 1.5rem;
+}
+
+.actions{
+    margin: 1rem auto;
+}
+
+.actions button{
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    border-radius: 20%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.actions button:hover{
+    opacity: .8;
+    border: 1px solid black;
+}

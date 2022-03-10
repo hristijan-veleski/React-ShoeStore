@@ -1,0 +1,61 @@
+.modelDetailContainer {
+  display: flex;
+  align-self: flex-start;
+  background-color: rgb(54, 50, 50, 0.8);
+  width: 60%;
+  height: 70%;
+  border-radius: 10%;
+  padding: 5%;
+}
+
+.modelImage {
+  display: block;
+  width: 40%;
+  object-fit: cover;
+  margin-left: -3rem;
+}
+
+.modelText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.modelTitle {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.modelDescription {
+  color: white;
+}
+
+.price {
+  color: #333;
+  align-self: flex-end;
+  font-size: 2rem;
+  background-color: #ddd;
+  border-radius: 20%;
+  padding: 1rem;
+  align-self: flex-start;
+}
+
+.addToCartButton {
+  height: 5rem;
+  width: 10rem;
+  align-self: flex-end;
+  margin-bottom: 2.5rem;
+  border-radius: 20%;
+  padding: 1rem 2rem;
+  color: white;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+  word-wrap: break-word;
+  background-color: rgba(32, 27, 27, 0.5);
+}
+
+.addToCartButton:hover{
+    opacity: .7;
+    border: 1px solid white;
+}

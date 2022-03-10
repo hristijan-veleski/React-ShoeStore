@@ -1,0 +1,60 @@
+.cartButton {
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(32, 27, 27, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.cartButton i{
+    padding:0px 6px 0px 0px;
+}
+
+.amount{
+    color:white;
+    margin-left: 5px;
+    padding:0px 8px;
+    background-color: rgb(83, 78, 78);
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+  
+
+
+
+
+
+
+
+
+/* .cartButton:hover{
+
+} */

@@ -1,0 +1,16 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/c9/b4/1c/c9b41c34eafca7ccf48d3cb95af77642.jpg");
+  background-size: cover;
+  background-position: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.content{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,75 @@
+.shoeModelContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 75vh;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  text-decoration: solid;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-right: 40px;
+  background-color: rgb(54, 50, 50, 0.8);
+  width: 33.33%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.modelImage {
+  display: block;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modelImage:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.modelText {
+  color: white;
+  
+}
+
+.modelTitle {
+  font-weight: bolder;
+  font: 2em sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+
+.modelTitle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.description {
+    font:1em arial;
+    word-wrap:normal;
+    text-overflow: clip;
+    margin:15px 0px 35px 0px;
+}

@@ -1,0 +1,99 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(54, 50, 50, 0.8);
+  padding: 50px 30px;
+  min-width: 300px;
+  min-height: 100px;
+  height: 50%;
+  width: 50%;
+  max-width: 600px;
+  max-height: 330px;
+  border-radius: 20px;
+}
+
+.loginTitle {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2.1rem;
+  font-weight: normal;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  color: white;
+  font: inherit;
+  font-weight: lighter;
+  font-size: 1.3em;
+  margin-bottom: 7px;
+}
+
+.inputGroup input {
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  background-color: rgba(41, 34, 34, 0.8);
+  border: 1px solid rgba(36, 26, 26, 0.33);
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+}
+
+.inputGroup input:focus {
+  border: 1px solid white;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+}
+
+.invalid input:focus {
+  border-color: white;
+}
+
+.loginButton {
+  margin-top: 20px;
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(41, 34, 34, 0.8);
+  border: 1px solid rgba(59, 52, 52, 1);
+  font-size: 1.5em;
+  color: white;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: rgba(43, 28, 28, 0.6);
+}
+
+.loginButton:focus {
+  background-color: rgba(43, 28, 28, 1);
+}
+
+
+.errorText {
+  margin: 0px;
+  padding: 0px;
+  color: red;
+}
+
+.toggle{
+  display: flex;
+  margin:1rem auto;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.direction{
+  flex-direction: column;
+}

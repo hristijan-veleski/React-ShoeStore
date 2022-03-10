@@ -1,0 +1,29 @@
+.footer {
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  min-width: 330px;
+  width: 70%;
+  max-width: 630px;
+  max-height: 70px;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 20px;
+}
+
+
+.footer i {
+  color:white;
+  margin: 0px 20px;
+  padding:20px 40px;
+  border-radius: 20px;
+  background-color: rgba(32, 27, 27, 0.8);
+}
+
+footer i:hover{
+    color:black;
+    background-color: #ddd;
+}
